@@ -1,0 +1,14 @@
+{
+  "name": "precon-recruitment-aptitude-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recruitment aptitude test website for PRECON Engineering Services",
+  "scripts": {
+    "start": "node server.js",
+    "admin:setup": "node scripts/setup-admin.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.12.0"
+  }
+}
